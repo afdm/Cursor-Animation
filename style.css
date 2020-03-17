@@ -52,7 +52,6 @@ a {
 
 nav a:hover {
   border-bottom: 2px var(--secondary-color) solid;
-  text-shadow: 5px 3px 7px var(--myBlue);
 }
 
 nav {
