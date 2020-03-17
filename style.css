@@ -109,6 +109,23 @@ nav li {
   margin-bottom: 3.5rem;
 }
 
+.main-content .right {
+  display: flex;
+}
+
+.main-content .right nav {
+  display: flex;
+  justify-content: center;
+
+  min-width: 5vh;
+}
+
+.main-content .right nav ul {
+  justify-content: flex-end;
+  flex-direction: column;
+  min-height: 85vh;
+}
+
 .main-content .right img {
   transform: scaleX(-1);
 }
@@ -150,4 +167,12 @@ nav li {
       var(--secondary-color)
     );
   }
+}
+
+.icons {
+  display: block;
+  height: 1.8rem;
+  width: 1.8rem;
+  margin: 8px auto;
+  color: var(--accent-color);
 }
