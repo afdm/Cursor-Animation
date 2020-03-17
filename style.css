@@ -1,0 +1,15 @@
+:root {
+    --primary-color : #210047;
+    --secondary-color : #c51232;
+    --accent-color : #ecbd2f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
