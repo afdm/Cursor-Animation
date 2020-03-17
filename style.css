@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
 :root {
   --primary-color: #210047;
   --secondary-color: #c51232;
   --accent-color: #ecbd2f;
+  --myBlue: #2a9ce5;
   --myWhite: #fefefe;
 }
 
@@ -13,6 +16,7 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -33,6 +37,7 @@ main {
 
 h1 {
   font-size: 2rem;
+  color: rgba(254, 254, 254, 0.62);
 }
 
 h2 {
@@ -43,6 +48,11 @@ p,
 a {
   font-size: 1.6rem;
   text-align: justify;
+}
+
+nav a:hover {
+  border-bottom: 2px var(--secondary-color) solid;
+  text-shadow: 5px 3px 7px var(--myBlue);
 }
 
 nav {
@@ -69,12 +79,16 @@ footer nav {
   display: inline-block;
   padding: 12px 32px;
   background: var(--accent-color);
-  color: var(--myWhite);
+  color: var(--primary-color);
   margin: 30px 0;
 
   font-weight: bold;
 
   border-radius: 25px;
+}
+
+.btn:hover {
+  animation: btngrad 0.1s ease-in-out forwards;
 }
 
 .main-content {
@@ -85,7 +99,7 @@ footer nav {
 }
 
 .main-content .left article {
-  margin-top: 33vh;
+  margin-top: 30vh;
 }
 .main-content .left h2 {
   margin-bottom: 3.5rem;
@@ -93,5 +107,18 @@ footer nav {
 
 .main-content .right img {
   transform: scaleX(-1);
-  z-index: -1;
+}
+
+@keyframes btngrad {
+  from {
+    background: var(--accent-color);
+  }
+
+  to {
+    background: linear-gradient(
+      45deg,
+      var(--accent-color),
+      var(--secondary-color)
+    );
+  }
 }
