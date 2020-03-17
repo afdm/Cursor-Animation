@@ -156,13 +156,13 @@ nav li {
 }
 
 @keyframes btngrad {
-  from {
+  0% {
     background: var(--accent-color);
   }
 
-  to {
+  100% {
     background: linear-gradient(
-      45deg,
+      90deg,
       var(--accent-color),
       var(--secondary-color)
     );
@@ -175,4 +175,13 @@ nav li {
   width: 1.8rem;
   margin: 8px auto;
   color: var(--accent-color);
+}
+
+@media screen and (max-width: 1160px) {
+  .main-content .left article {
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (max-width: 1025px) {
 }
