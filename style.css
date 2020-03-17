@@ -125,7 +125,7 @@ nav li {
   pointer-events: none;
 
   background: var(--accent-color);
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .cursorOnNav {
@@ -134,8 +134,6 @@ nav li {
   transform-origin: 220% 220%; /* Adjuste with the scale... */
   transition: all 0.3s ease;
   transition-property: background, transform;
-
-  z-index: -1;
 }
 
 @keyframes btngrad {
