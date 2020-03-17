@@ -23,6 +23,8 @@ body {
   background-color: var(--primary-color);
   color: var(--myWhite);
   cursor: none;
+
+  overflow: hidden;
 }
 
 a {
