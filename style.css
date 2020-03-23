@@ -53,6 +53,10 @@ a {
   text-align: justify;
 }
 
+p {
+  opacity: 0.6;
+}
+
 a:hover {
   cursor: none;
 }
