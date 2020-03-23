@@ -54,7 +54,7 @@ a {
 }
 
 p {
-  color: #aeaeae;
+  opacity: 0.6;
 }
 
 a:hover {
