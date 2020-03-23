@@ -1,6 +1,7 @@
 (function() {
   const cursor = document.querySelector(".cursor");
   const navlinks = document.querySelectorAll("nav ul li");
+  const home = document.querySelector(".logo");
   const btn = document.querySelector(".btn");
 
   window.addEventListener("mousemove", event => {
@@ -23,6 +24,14 @@
   });
 
   btn.addEventListener("mouseleave", () => {
+    cursor.classList.remove("cursorOnNav");
+  });
+
+  home.addEventListener("mouseover", () => {
+    cursor.classList.add("cursorOnNav");
+  });
+
+  home.addEventListener("mouseleave", () => {
     cursor.classList.remove("cursorOnNav");
   });
 })();
