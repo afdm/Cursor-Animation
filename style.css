@@ -54,7 +54,7 @@ a {
 }
 
 p {
-  opacity: 0.6;
+  color: #aeaeae;
 }
 
 a:hover {
@@ -232,6 +232,10 @@ nav li {
 
   nav {
     flex: 0.4;
+  }
+
+  nav li {
+    padding: 1rem;
   }
 
   .logo {
