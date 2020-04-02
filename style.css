@@ -136,6 +136,7 @@ nav li {
   height: 80%;
 }
 
+/* Tutoral most valuable parts */
 .cursor {
   width: 3rem;
   height: 3rem;
@@ -156,10 +157,11 @@ nav li {
 .cursorOnNav {
   background: var(--myBlue);
   transform: scale(1.3);
-  transform-origin: 220% 220%; /* Adjuste with the scale... */
+  transform-origin: 220% 220%; /* => Adjuste with the scale... */
   transition: all 0.3s ease;
   transition-property: background, transform;
 }
+/* /Tutoral most valuable parts */
 
 @keyframes btngrad {
   0% {

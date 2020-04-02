@@ -1,4 +1,4 @@
-(function() {
+window.addEventListener("load", () => {
   const cursor = document.querySelector(".cursor");
   const navlinks = document.querySelectorAll("nav ul li");
   const home = document.querySelector(".logo");
@@ -34,4 +34,4 @@
   home.addEventListener("mouseleave", () => {
     cursor.classList.remove("cursorOnNav");
   });
-})();
+});
